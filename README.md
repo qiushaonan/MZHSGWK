@@ -20,13 +20,13 @@
 
 3. 点击屏幕旋转，如下图
 
-   ![](img/点击屏幕旋转.png)
+   ![点击屏幕旋转.png](img/点击屏幕旋转.png)
 
 ## 配置脚本
 
 1. 启动`MaaPiCli.exe`，会显示以下界面
 
-   ![](img\MaaPiCli的界面1.png)
+   ![MaaPiCli的界面1.png](img\MaaPiCli的界面1.png)
 
    
 
@@ -34,7 +34,7 @@
 
 3. 然后会有`普通任务`的选项，选择之后会出现以下画面
 
-   ![](img\MaaPiCli的界面2.png)
+   ![MaaPiCli的界面2.png](img\MaaPiCli的界面2.png)
 
 4. 我们选择6，就开始运行脚本了
 
