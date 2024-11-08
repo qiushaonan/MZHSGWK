@@ -1,5 +1,42 @@
-{
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+{        
+    "点击继续学习":{
+        "recognition":"OCR",
+        "expected": "继续学习",
+        "action":"Click",
+        "next":"倍速"
+    },
+    "倍速":{
+        "recognition":"OCR",
+        "expected": "1.0",
+        "action":"Click",
+        "next":"一点五倍"
+    },
+    "一点五倍":{
+        "timeout":2400000,
+        "action":"Click",
+        "target":"倍速",
+        "next":"弹题识别"
+    },
+    "弹题识别":{
+        "timeout":2400000,
+        "recognition":"TemplateMatch",
+        "template":"弹题识别.png",
+        "next":"选择选项"
+    },
+    "选择选项":{
+        "timeout":2400000,
+        "recognition":"TemplateMatch",
+        "template": "A.png",
+        "action":"Click",
+        "next":"关闭"
+
+    },
+    "关闭":{
+        "timeout":2400000,
+        "recognition":"TemplateMatch",
+        "template":"叉.png",
+        "action":"Click",
+        "next":"弹题识别"
+    }
+    
 }
