@@ -34,7 +34,7 @@
     "关闭":{
         "timeout":2400000,
         "recognition":"TemplateMatch",
-        "template":"叉.png",
+        "template":"叉1.png",
         "action":"Click",
         "next":"弹题识别"
     }
